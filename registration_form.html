@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            This  is a registration form
+        </title>
+
+    </head>
+    <body>
+        <!--Name,Date of Birth,Gender,Address,Telephone,Email Address,Course-->
+        <h2><b>kindly fill the form below. </b></h2>
+        <form method="get">
+            <strong>NAME:</strong><input type="text" name="Name" id="Name">
+            <br><br>
+            <strong>D.O.B:</strong><input type="date" name="Date-of-Birth" id="Date-of-Birth">
+            <br> <br>
+            <strong>GENDER:</strong> <br><input type="radio" name="gender" id="gender"> MALE 
+            <br> 
+                   <input type="radio" name="gender" id="gender"> FEMALE
+            <br><br>
+            <strong>TELEPHONE:</strong><input type="tel" placeholder="254-722-000-000" name="Telephone" id="Telephone">
+            <br><br>
+            <strong>E-MAIL:</strong><input type="email" name="email" id="email">
+            <br><br>
+            <strong>COURSE: </strong> <br><br> 
+            <centre><input type="radio" name="course" id="course"> software engeneering <br><br> </centre>
+            <centre><input type="radio" name="course" id="course"> cyber security <br><br> </centre>
+            <centre><input type="radio" name="course" id="course"> business administration <br><br> </centre>   
+
+        </form>
+        <br><br>
+
+        <!-- fieldset, legend and label tag to work on the adress-->
+        <fieldset>
+            <legend><b>STUDENT ADDRESS</b></legend>
+            <label>Street: <input type="text" name="street" id="street" placeholder="in caps"
+            size="54"></label><br><br>
+            <label>City: <input type="text" name="city" id="city">
+            </label>
+            <label>Country: <input type="text" name="Country" id="Country"
+            maxlength="2"
+            size="5"></label>
+            <label>Zip: <input type="text" name="zip" id="zip"
+            maxlength="5"
+            size="5"></label>
+            </fieldset>
+
+            <br><br>
+
+            <input type="submit" name="submit" value="register">
+             <br><br>
+            <input type="reset" name="cancel" id="cancel" value="cancel">
+
+    </body>
+</html>
